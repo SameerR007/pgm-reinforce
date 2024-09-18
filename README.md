@@ -1,8 +1,8 @@
-## Policy Gradient Method (Reinforce Algorithm)
+# Policy Gradient Method (Reinforce Algorithm)
 
 This section introduces the **Policy Gradient** method as an alternative to the Deep Q-Learning (DQN) repository. While both methods aim to solve reinforcement learning tasks, they approach the problem differently. This implementation utilizes **policy-based reinforcement learning**, specifically a **policy gradient** approach, instead of the value-based method used in DQN.
 
-#### Policy Gradient Method:
+## Policy Gradient Method:
 
 - **Policy-Based Approach**: In contrast to estimating value functions, the policy gradient method directly optimizes the policy. The policy (a neural network) outputs probabilities for each action given a state, and actions are sampled from this distribution.
 - **Stochastic Policy**: The agent samples actions from a probability distribution, allowing more exploration and flexibility, especially for environments where stochastic actions are needed.
@@ -10,7 +10,7 @@ This section introduces the **Policy Gradient** method as an alternative to the 
 - **No Experience Replay**: Unlike DQN, there is no replay buffer. The policy is updated after every episode directly based on the rewards obtained in that episode.
 - **Policy Optimization**: The focus is on optimizing the policy to maximize expected rewards by using gradient ascent on the log-probabilities of actions weighted by rewards.
 
-### Overview of Policy Gradient Code
+## Overview of Policy Gradient Code
 
 In this extension, the **Policy Gradient** method is implemented for the same `FrozenLake-v1` environment:
 
@@ -29,4 +29,12 @@ In this extension, the **Policy Gradient** method is implemented for the same `F
 
 5. **Policy Update**:
    - After the episode ends, the policy is updated using **policy gradient**. The loss is calculated by multiplying the log probability of each action by the corresponding discounted return. The network parameters are then updated to maximize the expected return using gradient ascent.
-  
+
+## Visualizations 
+The following images demonstrate the training and testing phases of the REINFORCE algorithm:
+
+- **Training Progress**: Shows how the agent learns to navigate the frozen lake over training episodes.
+  - ![Training](training.png)
+
+- **Testing Performance**: Shows how the agent performs after training for 500 episodes.
+  - ![Testing](test.png)
