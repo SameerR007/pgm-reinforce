@@ -1,6 +1,6 @@
 ## Policy Gradient Method (Reinforce Algorithm)
 
-This section introduces the **Policy Gradient** method as an extension to the Deep Q-Learning (DQN) repository. While both methods aim to solve reinforcement learning tasks, they approach the problem differently. This implementation utilizes **policy-based reinforcement learning**, specifically a **policy gradient** approach, instead of the value-based method used in DQN.
+This section introduces the **Policy Gradient** method as an alternative to the Deep Q-Learning (DQN) repository. While both methods aim to solve reinforcement learning tasks, they approach the problem differently. This implementation utilizes **policy-based reinforcement learning**, specifically a **policy gradient** approach, instead of the value-based method used in DQN.
 
 #### Policy Gradient Method:
 
