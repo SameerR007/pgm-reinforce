@@ -45,3 +45,9 @@ The theoretical background and code for this project are largely based on the fo
 - [Policy Gradient Methods by Mutual Information](https://www.youtube.com/watch?v=e20EY4tFC_Q)
 - [REINFORCE: Reinforcement Learning Most Fundamental Algorithm by Andriy Drozdyuk](https://www.youtube.com/watch?v=5eSh5F8gjWU)
 - [REINFORCE (Vanilla Policy Gradient VPG) Algorithm Explained by Johnny Code](https://www.youtube.com/watch?v=boEO7tN7uoY)
+
+## Update
+
+An alternative to value based approaches such as **Q-Learning** and **Deep Q-Learning (DQN)**, is Policy based approach for eg. **Policy Gradient** method, which directly optimizes the policy by learning a probability distribution over actions rather than estimating action values. Unlike DQN’s deterministic approach, Policy Gradient methods use a stochastic policy, sampling actions from a probability distribution, which inherently supports exploration and adapts well to both discrete and continuous action spaces. While DQN relies on experience replay and target networks for stability, Policy Gradient simplifies training by updating the policy based on episode rewards, making it especially effective in environments with stochastic elements or continuous actions. This extension applies Policy Gradient to the `FrozenLake-v1` environment, showcasing an alternative approach to maximize long-term rewards.
+
+For more details, please visit [Policy Gradient Method (Reinforce Algorithm) Repository](https://github.com/SameerR007/pgm-reinforce).
