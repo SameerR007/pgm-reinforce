@@ -44,4 +44,4 @@ The theoretical background and code for this project are largely based on the fo
 - [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit4/introduction)
 - [Policy Gradient Methods | Reinforcement Learning Part 6 by Mutual Information](https://www.youtube.com/watch?v=e20EY4tFC_Q)
 - [REINFORCE: Reinforcement Learning Most Fundamental Algorithm by Andriy Drozdyuk](https://www.youtube.com/watch?v=5eSh5F8gjWU)
-= [REINFORCE (Vanilla Policy Gradient VPG) Algorithm Explained by Johnny Code](https://www.youtube.com/watch?v=boEO7tN7uoY)
+- [REINFORCE (Vanilla Policy Gradient VPG) Algorithm Explained by Johnny Code](https://www.youtube.com/watch?v=boEO7tN7uoY)
